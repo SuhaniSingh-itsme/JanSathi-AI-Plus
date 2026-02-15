@@ -231,16 +231,18 @@ Future:
 
 ---
 
-# 9. Cost Model (Demo)
+## 9. Cost Model (Demo)
 
-Estimated cost:
-< $50 for 48-hour hackathon usage
+Estimated demo cost (48-hour hackathon usage):
+Approximately ₹3,000 – ₹4,000
 
-Cost drivers:
-- Bedrock API calls
-- Transcribe audio minutes
-- Polly synthesis
-- Lambda execution time
+Primary Cost Drivers:
+- Amazon Bedrock API calls
+- Amazon Transcribe audio processing
+- Amazon Polly speech synthesis
+- AWS Lambda execution time
+
+The serverless architecture ensures pay-per-use billing and cost-efficient scaling. Lambda execution time
 
 ---
 
@@ -256,3 +258,4 @@ The hackathon prototype successfully demonstrates:
 The design intentionally limits demo complexity while establishing a scalable production foundation.
 
 JanSathi AI+ represents a practical, AI-powered approach to bridging India’s digital governance gap.
+
